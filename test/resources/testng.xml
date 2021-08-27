@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestAll" verbose="1" thread-count="1" parallel="tests">
+
+
+    <test name="Login and Logout Test">
+        <classes>
+            <class name="pl.uek.student.LoginLogoutTest"/>
+        </classes>
+    </test>
+    <test name="Permission Test">
+        <classes>
+            <class name="pl.uek.student.PermissionsStudentTest"/>
+            <class name="pl.uek.guest.PermissionsGuestTest"/>
+        </classes>
+    </test>
+    <test name="Searching Test">
+        <classes>
+            <class name="pl.uek.student.SearchingStudentTest"/>
+            <class name="pl.uek.guest.SearchingGuestTest"/>
+        </classes>
+    </test>
+    <test name="Course Test">
+        <classes>
+            <class name="pl.uek.student.CourseTest"/>
+        </classes>
+    </test>
+    <test name="Messages Test">
+        <classes>
+            <class name="pl.uek.student.myaccount.MessagesTest"/>
+        </classes>
+    </test>
+    <test name="Profile Test">
+        <classes>
+            <class name="pl.uek.student.myaccount.ProfileTest"/>
+        </classes>
+    </test>
+    <test name="Settings Test">
+        <classes>
+            <class name="pl.uek.student.myaccount.SettingsTest"/>
+        </classes>
+    </test>
+</suite>
