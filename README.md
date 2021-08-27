@@ -1,4 +1,4 @@
-# Testy automatyczne na potrzeby pracy licencjackiej napisane przez Jakub Duda
+# Testy automatyczne na potrzeby pracy magisterskiej napisane przez Jakub Duda
 Testy napisane są w języku Javie. 
 Projekt korzysta z Maven.
 Użyto wzorców Page Object Pattern oraz Page Factory. 
